@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: gray;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #6d6d6d;
+}
+
+.section {
+    padding: 60px 20px;
+    height: 100vh;
+}
+
+#section1 {
+    background-color: purple;
+}
+
+#section2 {
+    background-color: lightseagreen;
+}
+
+#section3 {
+    background-color: lightcoral;
+}
+
+#section4 {
+    background-color:goldenrod;
+}

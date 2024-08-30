@@ -1,0 +1,155 @@
+.container-sobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+
+.pequeno-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pequeno-title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.pequeno-title p {
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.minha-foto img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-color: gray;
+}
+
+.sobre-mim {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre-mim h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sobre-mim p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: rgb(49, 49, 49);
+    text-align: start;
+}
+
+@media ( max-width: 317px){
+    .container-sobre{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 320px) {
+    .pequeno-title h1 {
+        font-size: 1.6rem;
+    }
+
+    .pequeno-title p {
+        font-size: 0.95rem;
+    }
+
+    .minha-foto img {
+        width: 130px;
+    }
+
+    .sobre-mim h2 {
+        font-size: 1.5rem;
+    }
+
+    .sobre-mim p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 375px) {
+    .pequeno-title h1 {
+        font-size: 1.7rem;
+    }
+
+    .pequeno-title p {
+        font-size: 1rem;
+    }
+
+    .minha-foto img {
+        width: 140px;
+    }
+
+    .sobre-mim h2 {
+        font-size: 1.6rem;
+    }
+
+    .sobre-mim p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width: 425px) {
+    .pequeno-title h1 {
+        font-size: 1.8rem;
+    }
+
+    .pequeno-title p {
+        font-size: 1.05rem;
+    }
+
+    .minha-foto img {
+        width: 150px;
+    }
+
+    .sobre-mim h2 {
+        font-size: 1.7rem;
+    }
+
+    .sobre-mim p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-sobre {
+        padding: 20px;
+    }
+
+    .pequeno-title h1 {
+        font-size: 2rem;
+    }
+
+    .pequeno-title p {
+        font-size: 1.1rem;
+    }
+
+    .minha-foto img {
+        width: 180px;
+    }
+
+    .sobre-mim {
+        max-width: 600px;
+        padding: 20px;
+    }
+
+    .sobre-mim h2 {
+        font-size: 1.8rem;
+    }
+
+    .sobre-mim p {
+        font-size: 1.1rem;
+    }
+}

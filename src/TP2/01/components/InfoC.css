@@ -1,0 +1,27 @@
+*{
+    background-color: lightgray;
+}
+
+.container {
+    
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .container p {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 16px;
+  }
