@@ -26,7 +26,7 @@ const Projetos = () => {
                 <div key={index} className="project-card">
                     <h2 className="project-title">{project.title}</h2>
                     <p className="project-description">{project.description}</p>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
+                    <a href={project.link} target="_blank" rel="linkzada" className="project-link">
                         <img src={project.image} alt={project.title} className="project-image" />
                     </a>
                 </div>

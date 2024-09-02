@@ -1,17 +1,16 @@
-.card {
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .card {
     border: 1px solid black;
     padding: 20px;
     margin: 20px 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     width: 600px;
-}
-  
-.card-title {
-    margin: 0 0 10px;
-}
-  
-.card-text {
-    margin: 0;
   }
   

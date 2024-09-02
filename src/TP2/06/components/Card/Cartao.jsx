@@ -13,14 +13,14 @@ const Card = () => {
     ];
   
     return (
-      <div>
-        {cardData.map((card, index) => (
-          <div key={index} className="card">
-            <h2 className="card-title">{card.title}</h2>
-            <p className="card-text">{card.text}</p>
-          </div>
-        ))}
-      </div>
+      <div className="card-container">
+      {cardData.map((card, index) => (
+        <div key={index} className="card">
+          <h2 className="card-title">{card.title}</h2>
+          <p className="card-text">{card.text}</p>
+        </div>
+      ))}
+    </div>
     );
 }
   
